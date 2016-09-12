@@ -1,0 +1,22 @@
+{
+  "name": "johanTRS",
+  "authors": [
+    "MMDavito <davidking9753@gmail.com>"
+  ],
+  "description": "Hemsida för  företag",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "blanket": "^1.1.7",
+    "bootstrap": "^3.3.7",
+    "qunit": "QUnit#^1.11.0"
+  }
+}
