@@ -9,7 +9,13 @@ and open the template in the editor.
 */
 
 body {background-color: #9BC4E2;}
-#text{color: white;}
+#text{color: #323232;}
+#navText{color: white;}
 .div {background-color:  #9BC4E2;}
 #navbar {background-color: #323232;}
 .jumbotron{background-color: #9BC4E2;}
+.epåst:before {
+            content: attr(data-website) "\0040" attr(data-user);
+            unicode-bidi: bidi-override;
+            direction: rtl;
+        }

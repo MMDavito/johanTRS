@@ -5,11 +5,17 @@
  */
 
 
-$('#profilbild').hover(makeBigger, returnToOriginalSize);
 
-function makeBigger() {
-    $(this).css({height: '+=10%', width: '+=10%'});
-}
-function returnToOriginalSize() {
-    $(this).css({height: "", width: ""});
-}
+
+function imageEnlarge() {
+ document.getElementById('profil bild').style.height="100%";
+ document.getElementById('profil bild').style.width="100%";
+ document.getElementById('profil bild').style.position='absolute';
+ }
+function imageReset() {
+
+ document.getElementById('profil bild').style.height="80%";
+ document.getElementById('profil bild').style.width="80%";
+ document.getElementById('profil bild').style.position='absolute';
+ } 
+ //OM JAG SKA ANVÄNDA DETTA LÄG IN FÖLJANDE I HTML--> onmouseover="imageEnlarge();" onmouseout="imageReset();
