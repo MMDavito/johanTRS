@@ -6,16 +6,18 @@
 
 
 
-
-function imageEnlarge() {
- document.getElementById('profil bild').style.height="100%";
- document.getElementById('profil bild').style.width="100%";
- document.getElementById('profil bild').style.position='absolute';
+function denna() {
+    
+}
+/*function imageEnlarge() {
+ document.getElementById('profilbild').style.height="100%";
+ document.getElementById('profilbild').style.width="100%";
+ document.getElementById('profilbild').style.position='absolute';
  }
 function imageReset() {
 
- document.getElementById('profil bild').style.height="80%";
- document.getElementById('profil bild').style.width="80%";
- document.getElementById('profil bild').style.position='absolute';
- } 
+ document.getElementById('profilbild').style.height="80%";
+ document.getElementById('profilbild').style.width="80%";
+ document.getElementById('profilbild').style.position='absolute';
+ }*/ 
  //OM JAG SKA ANVÄNDA DETTA LÄG IN FÖLJANDE I HTML--> onmouseover="imageEnlarge();" onmouseout="imageReset();
