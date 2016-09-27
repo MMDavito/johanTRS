@@ -9,15 +9,15 @@
 function denna() {
     
 }
-/*function imageEnlarge() {
- document.getElementById('profilbild').style.height="100%";
- document.getElementById('profilbild').style.width="100%";
+function imageEnlarge() {
+ document.getElementById('profilbild').style.height="300px";
+ document.getElementById('profilbild').style.width="300px";
  document.getElementById('profilbild').style.position='absolute';
  }
 function imageReset() {
 
- document.getElementById('profilbild').style.height="80%";
- document.getElementById('profilbild').style.width="80%";
+ document.getElementById('profilbild').style.height="100px";
+ document.getElementById('profilbild').style.width="100px";
  document.getElementById('profilbild').style.position='absolute';
- }*/ 
+ } 
  //OM JAG SKA ANVÄNDA DETTA LÄG IN FÖLJANDE I HTML--> onmouseover="imageEnlarge();" onmouseout="imageReset();
